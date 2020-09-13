@@ -1,4 +1,4 @@
-import csv
+import csv, json
 
 fin = csv.DictReader(open("AddressPoint_data.csv"))
 fout = None
@@ -13,6 +13,9 @@ for row in fin:
     row["ID"] = row.pop("OBJECTID")
 
     row["HOUSENUMBER"] = row.pop("HOUSENUMTEXT")
+    
+    fl = row.pop("FLOOR")
+    row["addendum_json_scc"] = json.dumps({"floor": fl} if len(fl) > 0 else {})
 
     row["UNIT"] = row.pop("UNITNUMBER")
     
