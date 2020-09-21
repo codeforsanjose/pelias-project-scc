@@ -48,12 +48,12 @@
     },
     "openstreetmap": {
       "download": [
-        { "sourceURL": "https://s3.amazonaws.com/metro-extracts.nextzen.org/2018-05-19-13-00/san-francisco-bay_california.osm.pbf" }
+        { "sourceURL": "https://download.geofabrik.de/north-america/us/california/norcal-latest.osm.pbf" }
       ],
       "leveldbpath": "/tmp",
       "datapath": "/data/openstreetmap",
       "import": [{
-        "filename": "san-francisco-bay_california.osm.pbf"
+        "filename": "norcal-latest.osm.pbf"
       }]
     },
     "openaddresses": {
@@ -71,7 +71,7 @@
       "importPostalcodes": true,
       "countryCode": "US",
       "importPlace": [
-        "1360665447"
+        "102081673"
       ]
     },
     "transit": {
