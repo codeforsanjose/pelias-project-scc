@@ -1,12 +1,12 @@
-Native American Youth => NAYA
-Transit Center => TC
-Park Ride => PR
-Park & Ride => PR
-Park and Ride => PR
+Native American Youth, NAYA
+Transit Center, TC
+Park Ride, PR
+Park & Ride, PR
+Park and Ride, PR
 ticket,fare,outlet,store,retail
 dmv,motor,vehicles
-court house => courthouse
-court-house => courthouse
+court house, courthouse
+court-house, courthouse
 cc,court,courts,courth,courthouse
 law,jail,prison,jail,courthouse,enforcement,juvenile,justice,juvenile,correctional
 jewvi,juvi,juvenile
@@ -110,14 +110,14 @@ north, N
 south, S
 east, E
 west, W
-north west => northwest
-north east => northeast
-south west => southwest
-south east => southeast
+north west, northwest
+north east, northeast
+south west, southwest
+south east, southeast
 northwest, NW
 northeast, NE
 southwest, SW
 southeast, SE
 
-broadway st => broadway
-broadway street => broadway
+broadway st, broadway
+broadway street, broadway

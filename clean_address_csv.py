@@ -20,7 +20,7 @@ for row in fin:
     row["UNIT"] = row.pop("UNITNUMBER")
     
     street_components = [row.pop(cname) for cname in ["STREETPREFIX", "STREETNAME", "STREETTYPE", "STREETSUFFIX"]]
-    street_components = [c for c in street_components if len(c) > 0]
+    street_components = [c.title() for c in street_components if len(c) > 0]
     row["STREET"] = ' '.join(street_components)
     
     row["layer"] = "address"
